@@ -15,6 +15,13 @@
 9 bundle install
 10 delete views folder
 11 add index.html to public
-12 uncomment and change to '*' in cors.rb
+12 uncomment and change to * in cors.rb
 13 heroku login
 14 heroku set up
+15 web: bundle exec puma -C config/puma.rb
+16 worker: bundle exec rake jobs:work
+17 rails db:migrate
+18 add DS_Store to gitignore
+19 annotate
+20 db:migrate
+21 rails g controller API::V1::Games
