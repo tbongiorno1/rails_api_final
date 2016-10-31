@@ -25,3 +25,6 @@
 19 annotate
 20 db:migrate
 21 rails g controller API::V1::Games
+22 edit routes
+23 code controllers
+24 rake routes
