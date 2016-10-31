@@ -16,3 +16,5 @@
 10 delete views folder
 11 add index.html to public
 12 uncomment and change to '*' in cors.rb
+13 heroku login
+14 heroku set up
